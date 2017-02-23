@@ -1,0 +1,48 @@
+@desktop: ~"(min-width: 960px)";
+@tablet: ~"(max-width: 959px)";
+@dark-grey: #333;
+
+html,
+body {
+  height: 100%;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.login {
+  .center;
+  margin-top: 10em;
+}
+
+.list, .add, .details, .alert {
+  .center;
+}
+
+.fill {
+  min-height: 100%;
+  height: 100%;
+}
+
+@media @desktop {
+  .list, .add, .login, .details, .alert {
+    width: 500px;
+  }
+}
+
+.dark-grey {
+  background-color: @dark-grey;
+}
+
+.btn-default {
+  min-width: 80px;
+}
+
+.list-group {
+  font-size: 14px;
+}
+
+.fa {
+  margin-right: 10px;
+}
