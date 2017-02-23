@@ -12,16 +12,19 @@
       <div class="panel-body">
         <form action="functions/add-secret.php" method="post">
           <div class="form-group">
-            <input type="text" class="form-control" name="name" id="name" placeholder="Description" required autofocus>
+            <input type="text" class="form-control" name="name" id="name" placeholder="Secret Description" required autofocus>
           </div>
           <div class="form-group">
-            <input type="text" class="form-control" name="username" id="username" placeholder="Username" required>
+            <input type="text" class="form-control" name="username" id="username" placeholder="Secret Username" required>
           </div>
           <div class="form-group">
-            <input type="password" class="form-control" name="password" id="password" placeholder="Password" required>
+            <input type="password" class="form-control" name="password" id="password" placeholder="Secret Password" required>
           </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" id="password" placeholder="Secret Password again" required>
+            </div>
           <div class="form-group">
-            <input type="password" class="form-control" name="user-password" id="user-password" placeholder="Your Password" required>
+            <input type="password" class="form-control" name="user-password" id="user-password" placeholder="Your Pass Password" required>
           </div>
           <div class="form-group">
             <select class="form-control" name="group">
